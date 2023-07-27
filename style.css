@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box; 
+}
+body{
+    font-family:montserrat;
+}
+nav{
+    background-color:rgb(18, 206, 84);
+    height:80px;
+    width:100%;
+}
+label.logo{
+    color:white;
+    font-size:40px;
+    line-height:80px;
+    padding:0 50px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size:15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase;
+}
+a.active,a:hover{
+    background:rgb(218, 12, 12);
+    transition: .1s;
+}
+.con{
+padding: 40px;
+margin:0mm;
+text-align: center;
+font-size:50px;
+}
+form {
+    text-align: center;
+}
+form input{
+    text-align: center;
+    padding: 15px;
+    margin: 4mm;
+}
+form textarea{
+    padding: 15px;
+    width: 20;
+    margin-top: 4mm;
+    text-align: center;
+}
+form button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin:20px;
+        
+}
+.Nam{
+    margin-top:0mm;
+}
